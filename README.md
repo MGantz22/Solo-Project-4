@@ -2,14 +2,14 @@
 
 #### By _**Mitchell Gantz**_
 
-#### _HTML/javascript solo project. A demonstration site showcasing HTML, CSS, javaScript._
+#### _PizzaPie_
 
 ## Technologies Used
 
 * _HTML_
 * _CSS_
 * _JavaScript_
-* 
+
 
 ## Description
 
@@ -21,7 +21,7 @@ _This is a project showcasing the skills I've learned so far at Epicodus; This i
 * _Open Solo-project-Four directory_
 * _Open index.html_
 
-_user Selctects pizza size then pizza type and finally extra toppings if desired. Once you have a final selection you may submit the order and you will recieve a ticket with your selected order and total cost._
+_User selects pizza size then pizza type and finally extra toppings if desired. Once you have a final selection you may submit the order and you will receive a ticket with your selected order and total cost._
 
 ## Known Bugs
 
