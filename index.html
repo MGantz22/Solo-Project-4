@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>PizzaPie!!</title>
+    <title>CHEF BOY ARR DEE</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/scripts.js"></script> </head>
 <body>
     <h1><span>C</span>hef Boy Arr Dee's <span>P</span>izzeria</h1>
-    <form id="Pizza-Order">
-        <lable for="pizza-size">Select Pizza size:</lable>
+    <form id="pizza-order">
+        <lable for="pizza-size">Select Pizza Size:</lable>
         <select name="pizza-size" id="pizza-size">
             <option value="Small">Small</option>
             <option value="Medium">Medium</option>
             <option value="Large">Large</option>
         </select>
+        <lable for="pizza-type">Select Pizza type:</lable>
+        <select name="pizza-type" id="pizza-type">
+            <option value="Cheese">Cheese</option>
+            <option value="Peperoni">Pepperoni</option>
+            <option value="Sausage">Sausage</option>
+        </select>
+        <!-- <lable for="pizza-topping">Select extra toppings:</lable>
+        <select name="pizza-topping" id="pizza-topping">
+            <option value="NA">None</option>
+            <option value="Pinapple">Pinapple</option>
+        </select> -->
+        
         <div>
-            <button type="submit" class="button">Submit</button>
+            <br>
+            <button type="submit" class="button">Submit Order</button>
         </div>
-    </form>      
+    </form>
+    <div class="hidden" id="Order">
+        <img src="img/code.jpg" alt="your tickets qr code">
+        <h2>Pizza Order:</h2>
+        <p>Size: <span id="outputSize"></span></p>
+        <p>Type: <span id="outputType"></span></p>
+        <p>Cost: <span id="cost"></span></p>
+    </div>      
 </body>
 </html>
