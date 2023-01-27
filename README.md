@@ -1,29 +1,27 @@
-# _Solo-Project-3_
+# _Solo-Project-4_
 
 #### By _**Mitchell Gantz**_
 
-#### _??????_
+#### _HTML/javascript solo project. A demonstration site showcasing HTML, CSS, javaScript._
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _JavaScript_
+* 
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This is a project showcasing the skills I've learned so far at Epicodus; This is my Forth solo project. On this page you can order a pizza of your choosing by selecting a pizza size, type and add extra toppings. Then it will display the final cost of the order._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repository to your desktop_
+* _Open Solo-project-Four directory_
+* _Open index.html_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+_user Selctects pizza size then pizza type and finally extra toppings if desired. Once you have a final selection you may submit the order and you will recieve a ticket with your selected order and total cost._
 
 ## Known Bugs
 
@@ -46,10 +44,12 @@ Code: let pizza = new PizzaPie("Large"); pizza.calculateCost();
 Expected Result: 20
 
 
+
+
 ## License
 
+_Please contact me directly if they run into any issues or have questions, ideas or concerns or feel free to make a contribution to the code. I welcome all learning and growth. My email is Mgantz22@icloud.com, Thank you!_
 
+_Here is the link for the project: https://github.com/MGantz22/Solo-Project-4.git_
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
-Copyright (c) _date_ _author name(s)_
+Copyright (c) _2023_ _Mitchell Gantz_
