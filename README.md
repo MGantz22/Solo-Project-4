@@ -31,15 +31,19 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 * _should go here_
 
 
-## Describe: Pizza()
+## Describe: PizzaPie()
 
-Test: 
-Code: 
-Expected Result: 
+Test: "It should return the price of a Small pizza"
+Code: let pizza = new PizzaPie("Small"); pizza.calculateCost();
+Expected Result: 10
 
-Test: 
-code:  
-Expected Result: 
+Test: "It should return the price of a Medium pizza"
+Code: let pizza = new PizzaPie("Medium"); pizza.calculateCost();
+Expected Result: 15
+
+Test: "It should return the price of a Small pizza"
+Code: let pizza = new PizzaPie("Large"); pizza.calculateCost();
+Expected Result: 20
 
 
 ## License
