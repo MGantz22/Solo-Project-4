@@ -9,6 +9,7 @@
 * _HTML_
 * _CSS_
 * _JavaScript_
+* _Img_
 
 
 ## Description
@@ -25,26 +26,59 @@ _User selects pizza size then pizza type and finally extra toppings if desired. 
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _None_
+
 
 
 ## Describe: PizzaPie()
 
 Test: "It should return the price of a Small pizza"
-Code: let pizza = new PizzaPie("Small"); pizza.calculateCost();
+Code: new PizzaPie("Small"); pizza.calculateCost();
 Expected Result: 10
 
 Test: "It should return the price of a Medium pizza"
-Code: let pizza = new PizzaPie("Medium"); pizza.calculateCost();
+Code: new PizzaPie("Medium"); pizza.calculateCost();
 Expected Result: 15
 
-Test: "It should return the price of a Small pizza"
-Code: let pizza = new PizzaPie("Large"); pizza.calculateCost();
+Test: "It should return the price of a Large pizza"
+Code: new PizzaPie("Large"); pizza.calculateCost(); 
 Expected Result: 20
 
+Test: "It should return the price of a small cheese pizza"
+Code: new PizzaPie("Small", "Cheese"); pizza.calculateCost();
+Expected Result: 10
 
+Test: "It should return the price of a small pepperoni pizza"
+Code: new PizzaPie("Small", "Pepperoni"); pizza.calculateCost();
+Expected Result: 15
 
+Test: "It should return the price of a small sausage pizza"
+Code: new PizzaPie("Small", "Sausage"); pizza.calculateCost();
+Expected Result: 17
+
+Test: "It should return the price of a medium cheese pizza"
+Code: new PizzaPie("Medium", "Cheese"); pizza.calculateCost();
+Expected Result: 15
+
+Test: "It should return the price of a medium pepperoni pizza"
+Code: new PizzaPie("Medium", "Pepperoni"); pizza.calculateCost();
+Expected Result: 20
+
+Test: "It should return the price of a medium sausage pizza"
+Code: new PizzaPie("Medium", "Sausage"); pizza.calculateCost();
+Expected Result: 22
+
+Test: "It should return the price of a Large cheese pizza"
+Code: new PizzaPie("Large", "Cheese"); pizza.calculateCost();
+Expected Result: 20
+
+Test: "It should return the price of a Large pepperoni pizza"
+Code: new PizzaPie("Large", "Pepperoni"); pizza.calculateCost();
+Expected Result: 25
+
+Test: "It should return the price of a Large sausage pizza"
+Code: new PizzaPie("Large", "Sausage"); pizza.calculateCost();
+Expected Result: 27
 
 ## License
 

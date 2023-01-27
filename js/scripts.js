@@ -2,34 +2,38 @@
 function PizzaPie (pizzaSize, pizzaType) {
     this.pizzaSize = pizzaSize;
     this.pizzaType = pizzaType;
-    //this.pizzatopping = pizzaTopping;
 }
 
 
 PizzaPie.prototype.calculateCost = function() {
     let cost = 5;
     if (this.pizzaSize === "Small" && this.pizzaType === "Cheese") {
-        cost += 2;
-    }
-    else if  (this.pizzaSize === "Small" && this.pizzaType === "Peperoni") {
-        cost += 10;
-    } else if  (this.pizzaSize === "Small" && this.pizzaType === "Sausage") {
-        cost += 12;
-    }
-    else if (this.pizzaSize === "Medium" && "Cheese") {
         cost += 5;
     }
-    else if  (this.pizzaSize === "Medium" && "Peperoni") {
+    else if  (this.pizzaSize === "Small" && this.pizzaType === "Pepperoni") {
         cost += 10;
-    }
-    else if (this.pizzaSize === "Medium" && "Pepperoni") {
+    } 
+    else if  (this.pizzaSize === "Small" && this.pizzaType === "Sausage") {
         cost += 12;
     }
-    else if (this.pizzaSize === "Medium") {
+    else if (this.pizzaSize === "Medium" && this.pizzaType === "Cheese") {
         cost += 10;
-    } else if (this.pizzaSize === "Large") {
+    }
+    else if  (this.pizzaSize === "Medium" && this.pizzaType === "Pepperoni") {
         cost += 15;
     }
+    else if (this.pizzaSize === "Medium" && this.pizzaType === "Sausage") {
+        cost += 17;
+    }
+    else if (this.pizzaSize === "Large" && this.pizzaType === "Cheese") {
+        cost += 15;
+    }
+    else if (this.pizzaSize === "Large" && this.pizzaType === "Pepperoni") {
+        cost += 20;
+    }
+    else if (this.pizzaSize === "Large" && this.pizzaType === "Sausage") {
+    cost += 22;
+}
     return cost;
 }
 
