@@ -13,7 +13,7 @@
 
 ## Description
 
-_This is a project showcasing the skills I've learned so far at Epicodus; This is my Forth solo project. On this page you can order a pizza of your choosing by selecting a pizza size, type and add extra toppings. Then it will display the final cost of the order._
+_This is a project showcasing the skills I've learned so far at Epicodus; This is my Forth solo project. On this page you can order a pizza of your choosing by selecting a pizza size, type and add extra toppings if desired. Then the page will display the final selection and cost of the order._
 
 ## Setup/Installation Requirements
 
@@ -21,7 +21,7 @@ _This is a project showcasing the skills I've learned so far at Epicodus; This i
 * _Open Solo-project-Four directory_
 * _Open index.html_
 
-_User selects pizza size then pizza type and finally extra toppings if desired. Once you have a final selection you may submit the order and you will receive a ticket with your selected order and total cost._
+_User selects pizza size then pizza type and finally extra toppings if desired. Once you have a final selection you submit the order via  the button and you will receive a ticket with your selected order and total cost._
 
 ## Known Bugs
 
